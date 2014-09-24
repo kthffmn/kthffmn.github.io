@@ -3,7 +3,7 @@ layout: post
 title: "Marquee Element"
 date: 2014-09-23 12:14:41 -0400
 comments: true
-categories: html
+categories: html, marquee
 ---
 
 # Marquee Element
@@ -24,11 +24,33 @@ The marquee tag was invented by Internet Explorer to try and get an edge on Nets
 
 Vicious haters and cowards claimed that [the marquee tag was distracting](http://www.usabilityfirst.com/glossary/marquee/) and that it[caused issues for users of assistive technology](https://www.webaccessibility.com/best_practices.php?best_practice_id=441). On both these counts they were right.
 
-Haters also said that [it was difficult to print out webpages with marquee elements](http://en.wikipedia.org/wiki/Marquee_element#Usability_problems). But who does that? Why?
+Haters also said that [it was difficult to print out webpages with marquee elements](http://en.wikipedia.org/wiki/Marquee_element#Usability_problems). But really who does that? NOT A PROBLEM. Other two complaints: problems. Printing webpages: not problems.
 
-When marquee elements disappear off the edge of 
+Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari, continue to support it.
 
-is that they literally disappear, if you look at 
+In fact, Firefox supports a wide array of features. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom and to alternate from side to side. It also allows marquee tags to be nested: that is, having on marquee tag inside of another. Put the two and two together, and you get a div that 'bounces', like this:
+
+<iframe src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
+
+## Bouncing Ball
+
+Note: Firefox is the only browser that will support the marqee tags below. To get the full effect of this post, please open it in [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+
+The first step is to have a horizontal div move from left to right:
+
+<iframe src="http://kthffmn.github.io/marquee/ball-1"></iframe>
+
+The second step is to make a div that moves from top to bottom:
+
+<iframe src="http://kthffmn.github.io/marquee/ball-2"></iframe>
+
+The third step is to nest them:
+
+<iframe src="http://kthffmn.github.io/marquee/ball-3"></iframe>
+
+The fourth step is to style it:
+
+<iframe src="http://kthffmn.github.io/marquee/ball-4"></iframe>
 
 ## Throwback
 I present to you the [SpaceJam website](http://www2.warnerbros.com/spacejam/movie/jam.htm).
