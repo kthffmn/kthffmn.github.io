@@ -15,7 +15,7 @@ Marquee tags used to be quite the popular party guests at HTML cocktail parties.
 
 Still not jogging your memory? Marquees look like this:
 
-<iframe src="http://kthffmn.github.io/marquee/js_mimic"></iframe>
+<iframe height="70" src="http://kthffmn.github.io/marquee/js_mimic"></iframe>
 
 If you want a more immersive experience, visit Evan Goer's [Page of the Damned](http://www.goer.org/htmlhorror/htmlhorror1.html). It's simply spectacular.
 
