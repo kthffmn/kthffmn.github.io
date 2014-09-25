@@ -28,15 +28,17 @@ Vicious haters and cowards claimed that [the marquee tag was distracting](http:/
 
 Haters also said that [it was difficult to print out webpages with marquee elements](http://en.wikipedia.org/wiki/Marquee_element#Usability_problems). But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.
 
-Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari, continue to support it.
+Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari continue to support it.
 
 In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup's direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though [Evan Goer does not recommend it](http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html)): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that 'bounces', like this:
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
 
-## Bouncing Ball
+## Creating Bouncing Ball using Marquees
 
 **Firefox is the only browser that will support the marqee tags below. To get the full effect of this post, please open it in [Firefox](https://www.mozilla.org/en-US/firefox/new/).**
+
+There are four steps. They are simple. So simple.
 
 Step 1: Small div that moves from left to right
 <code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="2-6"></code>
