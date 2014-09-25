@@ -36,7 +36,7 @@ In fact, Firefox supports a wide array of attributes. For instance, in addition 
 
 ## Creating Bouncing Ball using Marquees
 
-**Firefox is the only browser that will support the marqee tags below. To get the full effect of this post, please open it in [Firefox](https://www.mozilla.org/en-US/firefox/new/).**
+**Firefox is the only browser that will support the marqee tags below. Please read the rest of this post in [Firefox](https://www.mozilla.org/en-US/firefox/new/).**
 
 There are four steps. They are simple. So simple.
 
