@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Html, | EduKatie]]></title>
+  <title><![CDATA[Category: html | EduKatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2014-09-25T16:35:35-04:00</updated>
+  <updated>2014-09-29T10:50:54-04:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -18,13 +18,7 @@
     <link href="http://kthffmn.github.io/blog/2014/09/23/marquee-element/"/>
     <updated>2014-09-23T12:14:41-04:00</updated>
     <id>http://kthffmn.github.io/blog/2014/09/23/marquee-element</id>
-    <content type="html"><![CDATA[<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gist-embed/1.9/gist-embed.min.js"></script>
-
-
-<h2>Introduction</h2>
+    <content type="html"><![CDATA[<h2>Introduction</h2>
 
 <p>Marquee tags used to be quite the popular party guests at HTML cocktail parties. They would enter from the front door, head over to the drinks, keep walking, jump out the window, only to re-enter from the front door. Oh! those crazy tricksters.</p>
 
@@ -44,36 +38,58 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 
 <p>Haters also said that <a href="http://en.wikipedia.org/wiki/Marquee_element#Usability_problems">it was difficult to print out webpages with marquee elements</a>. But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.</p>
 
-<p>Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari, continue to support it.</p>
+<p>Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari continue to support it.</p>
 
 <p>In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup&rsquo;s direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though <a href="http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html">Evan Goer does not recommend it</a>): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that &lsquo;bounces&rsquo;, like this:</p>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
 
 
-<h2>Bouncing Ball</h2>
+<h2>Creating Bouncing Ball using Marquees</h2>
 
-<p><strong>Firefox is the only browser that will support the marqee tags below. To get the full effect of this post, please open it in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</strong></p>
+<p><strong>Firefox is the only browser that will support the marqee tags below. Please read the rest of this post in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</strong></p>
 
-<p>Step 1: Small div that moves from left to right
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="2-6"></code></p>
+<p>There are four steps. They are simple. So simple.</p>
+
+<p><strong>Step 1:</strong> Small div that moves from left to right</p>
+
+<p>&#8220;`html</p>
+
+<div class="box">
+  <marquee class="bar" behavior="alternate">
+    <div class="ball">○</div>
+  </marquee>
+</div>
+
+
+<p>&#8220;`</p>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-1"></iframe>
 
 
-<p>Step 2: Large div that moves from top to bottom
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="9-11"></code></p>
+<p><strong>Step 2:</strong> Large div that moves from top to bottom</p>
+
+<pre><code class="html">&lt;marquee class="box" behavior="alternate" direction="up" height="300"&gt;
+  &lt;div class="ball"&gt;○&lt;/div&gt;
+&lt;/marquee&gt;
+</code></pre>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-2"></iframe>
 
 
-<p>Step 3: Nest the small div in the large div
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="14-18"></code></p>
+<p><strong>Step 3:</strong> Nest the small div in the large div</p>
+
+<pre><code class="html">&lt;marquee class="box" behavior="alternate" direction="up" height="300"&gt;
+  &lt;marquee class="bar" behavior="alternate"&gt;
+    &lt;div class="ball"&gt;○&lt;/div&gt;
+  &lt;/marquee&gt;
+&lt;/marquee&gt;
+</code></pre>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
 
 
-<p>Step 4: <em>lowers glasses like Tim Gun</em> Make it work!</p>
+<p><strong>Step 4:</strong> <em>lowers glasses like Tim Gun</em> &ldquo;Make it work!&rdquo;</p>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
 

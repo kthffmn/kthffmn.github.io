@@ -1,99 +1,113 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>EduKatie</title>
-  <meta name="author" content="Katie Hoffman">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Exploring Coding Curiosities  | EduKatie</title>
 
-  
-  <meta name="description" content="Introduction Marquee tags used to be quite the popular party guests at HTML cocktail parties. They would enter from the front door, head over to the &hellip;">
-  
+<meta name="author" content="Katie Hoffman"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Web Development Blog"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://kthffmn.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="EduKatie" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+	<link href="/atom.xml" rel="alternate" title="EduKatie" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
 
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">EduKatie</a></h1>
-  
-    <h2>Exploring Coding Curiosities</h2>
-  
-</hgroup>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">EduKatie</a></h1>
+<h4>Exploring Coding Curiosities</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:kthffmn.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:kthffmn.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/23/marquee-element/">Marquee Element</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
 
 
-
-
-<time class='entry-date' datetime='2014-09-23T12:14:41-04:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>12:14 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gist-embed/1.9/gist-embed.min.js"></script>
-
-
-<h2>Introduction</h2>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2014/09/23/marquee-element/">
+		
+			Marquee Element</a>
+	</h2>
+	<div class="entry-content">
+		<h2>Introduction</h2>
 
 <p>Marquee tags used to be quite the popular party guests at HTML cocktail parties. They would enter from the front door, head over to the drinks, keep walking, jump out the window, only to re-enter from the front door. Oh! those crazy tricksters.</p>
 
@@ -113,36 +127,76 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 
 <p>Haters also said that <a href="http://en.wikipedia.org/wiki/Marquee_element#Usability_problems">it was difficult to print out webpages with marquee elements</a>. But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.</p>
 
-<p>Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari, continue to support it.</p>
+<p>Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari continue to support it.</p>
 
 <p>In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup&rsquo;s direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though <a href="http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html">Evan Goer does not recommend it</a>): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that &lsquo;bounces&rsquo;, like this:</p>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
 
 
-<h2>Bouncing Ball</h2>
+<h2>Creating Bouncing Ball using Marquees</h2>
 
-<p><strong>Firefox is the only browser that will support the marqee tags below. To get the full effect of this post, please open it in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</strong></p>
+<p><strong>Firefox is the only browser that will support the marqee tags below. Please read the rest of this post in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</strong></p>
 
-<p>Step 1: Small div that moves from left to right
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="2-6"></code></p>
+<p>There are four steps. They are simple. So simple.</p>
+
+<p><strong>Step 1:</strong> Small div that moves from left to right</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;bar&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ball&quot;</span><span class="nt">&gt;</span>○<span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/marquee&gt;</span>
+</span><span class='line'><span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-1"></iframe>
 
 
-<p>Step 2: Large div that moves from top to bottom
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="9-11"></code></p>
+<p><strong>Step 2:</strong> Large div that moves from top to bottom</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span> <span class="na">direction=</span><span class="s">&quot;up&quot;</span> <span class="na">height=</span><span class="s">&quot;300&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ball&quot;</span><span class="nt">&gt;</span>○<span class="nt">&lt;/div&gt;</span>
+</span><span class='line'><span class="nt">&lt;/marquee&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-2"></iframe>
 
 
-<p>Step 3: Nest the small div in the large div
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="14-18"></code></p>
+<p><strong>Step 3:</strong> Nest the small div in the large div</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span> <span class="na">direction=</span><span class="s">&quot;up&quot;</span> <span class="na">height=</span><span class="s">&quot;300&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;bar&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ball&quot;</span><span class="nt">&gt;</span>○<span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/marquee&gt;</span>
+</span><span class='line'><span class="nt">&lt;/marquee&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
 
 
-<p>Step 4: <em>lowers glasses like Tim Gun</em> Make it work!</p>
+<p><strong>Step 4:</strong> <em>lowers glasses like Tim Gun</em> &ldquo;Make it work!&rdquo;</p>
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
 
@@ -152,64 +206,58 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 <h2>Throwback</h2>
 
 <p>The <a href="http://www2.warnerbros.com/spacejam/movie/jam.htm">SpaceJam website</a> is still alive and thriving.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-23T12:14:41-04:00" pubdate data-updated="true"></time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/html/'>html</a>, <a class='category' href='/blog/categories/marquee/'>marquee</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  <div class="pagination">
+	
+</div></article>
+
+<nav id="pagenavi">
     
-    <a href="/blog/archives">Blog Archives</a>
     
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/09/23/marquee-element/">Marquee Element</a>
-      </li>
-    
-  </ul>
-</section>
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
+    Katie Hoffman
 
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Katie Hoffman -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
