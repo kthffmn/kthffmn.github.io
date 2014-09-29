@@ -3,11 +3,8 @@ layout: post
 title: "Marquee Element"
 date: 2014-09-23 12:14:41 -0400
 comments: true
-categories: html, marquee
+categories: html marquee
 ---
-
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gist-embed/1.9/gist-embed.min.js"></script>
 
 ## Introduction
 
@@ -40,19 +37,41 @@ In fact, Firefox supports a wide array of attributes. For instance, in addition 
 
 There are four steps. They are simple. So simple.
 
-Step 1: Small div that moves from left to right
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="2-6"></code>
+**Step 1:** Small div that moves from left to right
+
+```html
+<div class="box">
+  <marquee class="bar" behavior="alternate">
+    <div class="ball">○</div>
+  </marquee>
+</div>
+```
+
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-1"></iframe>
 
-Step 2: Large div that moves from top to bottom
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="9-11"></code>
+**Step 2:** Large div that moves from top to bottom
+
+```html
+<marquee class="box" behavior="alternate" direction="up" height="300">
+  <div class="ball">○</div>
+</marquee>
+```
+
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-2"></iframe>
 
-Step 3: Nest the small div in the large div
-<code data-gist-id="9dc4351becccdc716811" data-gist-hide-footer="true" data-gist-hide-line-numbers="true" data-gist-line="14-18"></code>
+**Step 3:** Nest the small div in the large div
+
+```html
+<marquee class="box" behavior="alternate" direction="up" height="300">
+  <marquee class="bar" behavior="alternate">
+    <div class="ball">○</div>
+  </marquee>
+</marquee>
+```
+
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
 
-Step 4: *lowers glasses like Tim Gun* Make it work!
+**Step 4:** *lowers glasses like Tim Gun* "Make it work!"
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
 
 It's an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it only renders in [1 out of 10](http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/) viewer's browsers! Yay!
