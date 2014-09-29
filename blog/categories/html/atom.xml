@@ -4,7 +4,7 @@
   <title><![CDATA[Category: html | EduKatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2014-09-29T11:31:09-04:00</updated>
+  <updated>2014-09-29T15:48:08-04:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -12,6 +12,83 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[I'm All About That Base...line]]></title>
+    <link href="http://kthffmn.github.io/blog/2014/09/29/align-stein/"/>
+    <updated>2014-09-29T14:41:14-04:00</updated>
+    <id>http://kthffmn.github.io/blog/2014/09/29/align-stein</id>
+    <content type="html"><![CDATA[<h2>Background</h2>
+
+<p>From <a href="http://www.google.com/landing/now/#whatisit">Google Now</a> to <a href="http://www.pinterest.com/ruth77rn/ui-patterns-cards/">Pintrest</a>, the <a href="http://blog.intercom.io/why-cards-are-the-future-of-the-web/">card UI pattern</a> is gaining traction.</p>
+
+<h2>Wha?</h2>
+
+<p>A while back, I implemented this design:</p>
+
+<pre><code class="css">.card {
+  display: inline-block;
+  background-color: #89b1b5;
+  padding: 10px;
+  margin: 5px;
+}
+</code></pre>
+
+<p>&#8220;`html</p>
+
+<div class="card">
+  <img src="picture.jpeg" />
+</div>
+
+
+
+
+<div class="card">
+  <p>Lorem ipsum</p>
+</div>
+
+
+<p>&#8220;`
+I imagined that this would look okay. Instead, it looked like this:</p>
+
+<p><iframe width="330" height="235" src="http://kthffmn.github.io/baseline-examples/default"></p>
+
+<p>RUN FOR YOUR LIFE I WON&rsquo;T MAKE IT!</p>
+
+<p>Q: Why do bad things happen to good HTML elements?&#8221;</p>
+
+<p>A: Because we live in a cruel world where there is no god.</p>
+
+<h2>Why?</h2>
+
+<p>So it turns out that images have a veritical-align property that defaults to baseline. You might be asking, &ldquo;What the hell is baseline?&rdquo;</p>
+
+<p>Do you remember writing on college-ruled paper in school or are you reading this in the future where everyone comminucates via brain chips and Kanye West is worshipped as a god? Well, for those of you who remember ruled paper, those blue lines are perfect examples of baselines. Letters like p, q, and y have appendages that exend below the baseline but most letters sit on it.</p>
+
+<p>For instance, the teal line in this image is the baseline:</p>
+
+<p><img src="http://kthffmn.github.io/baseline-examples/baseline.png" alt="baseline image example" /></p>
+
+<p>The vertical-align property does not affect the positioning of the element&rsquo;s contents. Rather, it affects the element&rsquo;s alignment on the page.</p>
+
+<p>For my demo card example, the image&rsquo;s default alignment of baseline was causing the strange behaviour. It was trying to line up with the baseline of the text in the div to its right, causing the left-hand div to be higher than the right-hand div.</p>
+
+<p><img src="http://kthffmn.github.io/baseline-examples/explicit-baseline.png" alt="baseline drawn in example above" /></p>
+
+<h2>Solution</h2>
+
+<p>A quick way to solve this is to override the image default:</p>
+
+<pre><code class="css">.card img {
+  vertical-align: middle;
+}
+</code></pre>
+
+<p><iframe width="330" height="235" src="http://kthffmn.github.io/baseline-examples/custom"></p>
+
+<p>To learn more about the vertical-align property, visit <a href="http://www.impressivewebs.com/css-vertical-align/">Impressive Web&rsquo;s blog about it</a> or <a href="http://css-tricks.com/almanac/properties/v/vertical-align/">CSS-Trick&rsquo;s vertical-align article</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Marquee Element]]></title>

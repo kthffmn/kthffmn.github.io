@@ -5,7 +5,7 @@
 	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
 	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
-	<title>Exploring Coding Curiosities  | EduKatie</title>
+	<title>I&#8217;m All About That Base&#8230;line  | EduKatie</title>
 
 <meta name="author" content="Katie Hoffman"> 
 
@@ -94,18 +94,9 @@ $(document).ready(
 
 </header>
 
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/09/29/align-stein/">
-		
-			I&#8217;m All About That Base&#8230;line</a>
-	</h2>
-	<div class="entry-content">
-		<h2>Background</h2>
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">I&#8217;m All About That Base&#8230;line</h2>
+	<div class="entry-content"><h2>Background</h2>
 
 <p>From <a href="http://www.google.com/landing/now/#whatisit">Google Now</a> to <a href="http://www.pinterest.com/ruth77rn/ui-patterns-cards/">Pintrest</a>, the <a href="http://blog.intercom.io/why-cards-are-the-future-of-the-web/">card UI pattern</a> is gaining traction.</p>
 
@@ -188,10 +179,7 @@ $(document).ready(
 <p><iframe width="330" height="235" src="http://kthffmn.github.io/baseline-examples/custom"></p>
 
 <p>To learn more about the vertical-align property, visit <a href="http://www.impressivewebs.com/css-vertical-align/">Impressive Web&rsquo;s blog about it</a> or <a href="http://css-tricks.com/almanac/properties/v/vertical-align/">CSS-Trick&rsquo;s vertical-align article</a>.</p>
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -220,151 +208,20 @@ $(document).ready(
 	
 </div></article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/09/23/marquee-element/">
-		
-			Marquee Element</a>
-	</h2>
-	<div class="entry-content">
-		<h2>Introduction</h2>
-
-<p>Marquee tags used to be quite the popular party guests at HTML cocktail parties. They would enter from the front door, head over to the drinks, keep walking, jump out the window, only to re-enter from the front door. Oh! those crazy tricksters.</p>
-
-<p>Still not jogging your memory? Marquees look like this:</p>
-
-<iframe height="70" src="http://kthffmn.github.io/marquee/js_mimic"></iframe>
-
-
-<p>If you want a more immersive experience, visit Evan Goer&rsquo;s <a href="http://www.goer.org/htmlhorror/htmlhorror1.html">Page of the Damned</a>. It&rsquo;s simply spectacular.</p>
-
-<h2>History</h2>
-
-<p>The marquee element was invented by Internet Explorer to try and get an edge on Netscape Navigator. For the babies out there, Netscape was a web browser that dominated the market up until the <a href="http://en.wikipedia.org/wiki/Browser_wars#First_browser_war">First Browser War</a> and it had its own proprietary tag, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink">blink</a>. The battle was epic, it was like <a href="http://youtu.be/VkOQW-Y-PYA">Ali versus Frazier III</a> but instead of boxing gloves, they had proprietary, equally obnoxious tags.</p>
-
-<p>Marqee tags were pretty popular, take any GeoCities page from that era, but it had some fierce critics.
-Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/glossary/marquee/">the marquee tag was distracting</a> and that it <a href="https://www.webaccessibility.com/best_practices.php?best_practice_id=441">caused issues for users of assistive technology</a>. On both these counts they were right.</p>
-
-<p>Haters also said that <a href="http://en.wikipedia.org/wiki/Marquee_element#Usability_problems">it was difficult to print out webpages with marquee elements</a>. But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.</p>
-
-<p>Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari continue to support it.</p>
-
-<p>In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup&rsquo;s direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though <a href="http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html">Evan Goer does not recommend it</a>): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that &lsquo;bounces&rsquo;, like this:</p>
-
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
-
-
-<h2>Creating Bouncing Ball using Marquees</h2>
-
-<p><strong>Firefox is the only browser that will support the marqee tags below. Please read the rest of this post in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>.</strong></p>
-
-<p>There are four steps. They are simple. So simple.</p>
-
-<p><strong>Step 1:</strong> Small div that moves from left to right</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;bar&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ball&quot;</span><span class="nt">&gt;</span>○<span class="nt">&lt;/div&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;/marquee&gt;</span>
-</span><span class='line'><span class="nt">&lt;/div&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-1"></iframe>
-
-
-<p><strong>Step 2:</strong> Large div that moves from top to bottom</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span> <span class="na">direction=</span><span class="s">&quot;up&quot;</span> <span class="na">height=</span><span class="s">&quot;300&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ball&quot;</span><span class="nt">&gt;</span>○<span class="nt">&lt;/div&gt;</span>
-</span><span class='line'><span class="nt">&lt;/marquee&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-2"></iframe>
-
-
-<p><strong>Step 3:</strong> Nest the small div in the large div</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span> <span class="na">direction=</span><span class="s">&quot;up&quot;</span> <span class="na">height=</span><span class="s">&quot;300&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;marquee</span> <span class="na">class=</span><span class="s">&quot;bar&quot;</span> <span class="na">behavior=</span><span class="s">&quot;alternate&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ball&quot;</span><span class="nt">&gt;</span>○<span class="nt">&lt;/div&gt;</span>
-</span><span class='line'>  <span class="nt">&lt;/marquee&gt;</span>
-</span><span class='line'><span class="nt">&lt;/marquee&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
-
-
-<p><strong>Step 4:</strong>&nbsp;&nbsp;*lowers glasses like Tim Gun*&nbsp;&nbsp;Make it work.</p>
-
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
-
-
-<p>It&rsquo;s an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it only renders in <a href="http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/">1 out of 10</a> viewer&rsquo;s browsers! Yay!</p>
-
-<h2>Throwback</h2>
-
-<p>The <a href="http://www2.warnerbros.com/spacejam/movie/jam.htm">SpaceJam website</a> is still alive and thriving.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-23T12:14:41-04:00" pubdate data-updated="true"></time></div>
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
 	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/html/'>html</a>, <a class='category' href='/blog/categories/marquee/'>marquee</a>
-
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
 
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/archives">Blog Archives</a></div>
-</nav></div>
+</div>
 	<footer id="footer" class="inner">Copyright &copy; 2014
 
     Katie Hoffman
