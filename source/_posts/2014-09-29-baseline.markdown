@@ -67,4 +67,4 @@ A quick way to solve this is to override the image default:
 
 <iframe width="480" height="245" src="http://kthffmn.github.io/baseline-examples/custom"></iframe>
 
-To learn more about the vertical-align property, checkout [Impressive Web's blog about it](http://www.impressivewebs.com/css-vertical-align/) or [CSS-Trick's vertical-align article](http://css-tricks.com/almanac/properties/v/vertical-align/).
+To learn more about the vertical-align property, checkout [Impressive Web's blog](http://www.impressivewebs.com/css-vertical-align/) or [CSS-Trick's article](http://css-tricks.com/almanac/properties/v/vertical-align/).
