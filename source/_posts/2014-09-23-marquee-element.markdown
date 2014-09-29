@@ -71,7 +71,7 @@ There are four steps. They are simple. So simple.
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
 
-**Step 4:** *lowers glasses like Tim Gun* "Make it work!"
+**Step 4:**&nbsp;&nbsp;\*lowers glasses like Tim Gun\*&nbsp;&nbsp;Make it work.
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
 
 It's an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it only renders in [1 out of 10](http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/) viewer's browsers! Yay!
