@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I'm All About that Base...line"
+title: "I'm All About That Base...line"
 date: 2014-09-29 14:41:14 -0400
 comments: true
 categories: html css img vertical-align
