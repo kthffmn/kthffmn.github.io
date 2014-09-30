@@ -4,7 +4,7 @@
   <title><![CDATA[Category: html | EduKatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2014-09-30T10:13:29-04:00</updated>
+  <updated>2014-09-30T10:24:10-04:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -97,7 +97,7 @@ I imagined that this would look okay. Instead, it looked like this:</p>
 
 <p>Still not jogging your memory? Marquees look like this:</p>
 
-<iframe height="70" src="http://kthffmn.github.io/marquee/js_mimic"></iframe>
+<iframe height="70" width="400" src="http://kthffmn.github.io/marquee/js_mimic"></iframe>
 
 
 <p>If you want a more immersive experience, visit Evan Goer&rsquo;s <a href="http://www.goer.org/htmlhorror/htmlhorror1.html">Page of the Damned</a>. It&rsquo;s simply spectacular.</p>
@@ -115,7 +115,7 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 
 <p>In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup&rsquo;s direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though <a href="http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html">Evan Goer does not recommend it</a>): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that &lsquo;bounces&rsquo;. In other words, the effect of a ball hitting walls below, acheived via JavaScript, can be mimicked with HTML and some old school CSS.</p>
 
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
+<iframe width="400" height="305" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
 
 
 <h2>Creating Bouncing Ball using Marquees</h2>
@@ -147,7 +147,7 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 &lt;/marquee&gt;
 </code></pre>
 
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-2"></iframe>
+<iframe width="400" height="310" src="http://kthffmn.github.io/marquee/ball-2"></iframe>
 
 
 <p><strong>Step 3:</strong> Nest the small div in the large div</p>
@@ -159,12 +159,12 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 &lt;/marquee&gt;
 </code></pre>
 
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
+<iframe width="400" height="310" src="http://kthffmn.github.io/marquee/ball-3"></iframe>
 
 
 <p><strong>Step 4:</strong>&nbsp;&nbsp;*lowers glasses like Tim Gun*&nbsp;&nbsp;Make it work.</p>
 
-<iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
+<iframe width="400" height="320" src="http://kthffmn.github.io/marquee/ball-4"></iframe>
 
 
 <p>It&rsquo;s an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it only renders in <a href="http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/">1 out of 10</a> viewer&rsquo;s browsers! Yay!</p>
