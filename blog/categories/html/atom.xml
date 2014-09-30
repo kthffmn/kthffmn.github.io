@@ -4,7 +4,7 @@
   <title><![CDATA[Category: html | EduKatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2014-09-29T16:36:56-04:00</updated>
+  <updated>2014-09-30T09:05:35-04:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -20,7 +20,7 @@
     <id>http://kthffmn.github.io/blog/2014/09/29/baseline</id>
     <content type="html"><![CDATA[<h2>Background</h2>
 
-<p>You may have noticed that some of your favorite websites, like <a href="http://www.google.com/landing/now/#whatisit">Google Now</a> and <a href="http://www.pinterest.com/ruth77rn/ui-patterns-cards/">Pintrest</a>, have started to put small amounts of content into discreet divs. These small units of content are called cards and the <a href="http://blog.intercom.io/why-cards-are-the-future-of-the-web/">card UI pattern</a> is <a href="http://blogs.telerik.com/telerikmarketing/posts/14-04-15/is-cards-ui-the-future-of-mobile">gaining traction</a> because they are scalable and easy to manipulate.</p>
+<p>You may have noticed that some of your favorite websites, like <a href="http://www.google.com/landing/now/#whatisit">Google Now</a> and <a href="http://www.pinterest.com/ruth77rn/ui-patterns-cards/">Pintrest</a>, have started to put small amounts of content into discrete divs. These small units of content are called cards and the <a href="http://blog.intercom.io/why-cards-are-the-future-of-the-web/">card UI pattern</a> is <a href="http://blogs.telerik.com/telerikmarketing/posts/14-04-15/is-cards-ui-the-future-of-mobile">gaining traction</a> because they are scalable and easy to manipulate.</p>
 
 <p>A while back, I implemented this design:</p>
 
@@ -50,17 +50,15 @@ I imagined that this would look okay. Instead, it looked like this:</p>
 <iframe  width="480" height="275" src="http://kthffmn.github.io/baseline-examples/default"></iframe>
 
 
-<p>RUN FOR YOUR LIFE I WON&rsquo;T MAKE IT!</p>
+<p><strong>Q:</strong> Why do bad things happen to good HTML elements?</p>
 
-<p><strong>Q:</strong> Why do bad things happen to good HTML elements?&#8221;</p>
-
-<p><strong>A:</strong> Because we live in a cruel world where there is no god.</p>
+<p><strong>A:</strong> Because we live in a cruel world where nothing has meaning.</p>
 
 <h2>Wha?</h2>
 
-<p>So it turns out that images have a veritical-align property that defaults to baseline. You might be asking, &ldquo;What the hell is baseline?&rdquo;</p>
+<p>So it turns out that images have a veritical-align property that defaults to baseline. You might be asking, &ldquo;WHAT IS A BASELINE?!?&rdquo;</p>
 
-<p>Do you remember writing on college-ruled paper in school or are you reading this in the future where everyone comminucates via brain chips and Kanye West is worshipped as a god? Well, for those of you who remember ruled paper, those blue lines are perfect examples of baselines. Letters like p, q, and y have appendages that exend below the baseline but most letters sit on it.</p>
+<p>First off, calm down. We&rsquo;re going to get through this together. Do you remember writing on college-ruled paper in school or are you reading this in the future where everyone comminucates via brain chips and Kanye West is worshipped as a god? Well, for those of you who remember ruled paper, those blue lines are perfect examples of baselines. Letters like p, q, and y have appendages that exend below the baseline but most letters sit on it.</p>
 
 <p>For instance, the teal line in this image is the baseline:</p>
 
