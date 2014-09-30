@@ -27,13 +27,13 @@ Haters also said that [it was difficult to print out webpages with marquee eleme
 
 Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari continue to support it.
 
-In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup's direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though [Evan Goer does not recommend it](http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html)): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that 'bounces', like this:
+In fact, Firefox supports a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, it allows marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup's direction once it hits the side of the marquee. Firefox also allows marquee tags to be nested (though [Evan Goer does not recommend it](http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html)): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that 'bounces'. In other words, the effect of a ball hitting walls below, acheived via JavaScript, can be mimicked with HTML and some old school CSS. 
 
 <iframe width="400" height="300" src="http://kthffmn.github.io/marquee/ball_mimic"></iframe>
 
 ## Creating Bouncing Ball using Marquees
 
-**Firefox is the only browser that will support the marqee tags below. Please read the rest of this post in [Firefox](https://www.mozilla.org/en-US/firefox/new/).**
+**Please read the rest of this post in [Firefox](https://www.mozilla.org/en-US/firefox/new/) as it is the only browser that will support the marqee tags below.**
 
 There are four steps. They are simple. So simple.
 
