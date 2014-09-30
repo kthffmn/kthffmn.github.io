@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: marquee | Edukatie]]></title>
+  <title><![CDATA[Category: marquee | eduKatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/marquee/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2014-09-30T10:40:34-04:00</updated>
+  <updated>2014-09-30T11:00:29-04:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -95,6 +95,8 @@ Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/g
 
 
 <p>It&rsquo;s an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it only renders in <a href="http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/">1 out of 10</a> viewer&rsquo;s browsers! Yay!</p>
+
+<p>To learn more about the marquee tag, check out <a href="http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html">Evan Goer&rsquo;s blog</a> or <a href="http://davidwalsh.name/open-letter-webmaster">David Walsh&rsquo;s letter to the webmaster</a>. To see a non-ironic use of the marquee tag, hit up <a href="http://www.picasso.co.in/">Picasso Animation College&rsquo;s home page</a>.</p>
 
 <h2>Throwback</h2>
 
