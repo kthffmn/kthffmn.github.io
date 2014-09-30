@@ -76,5 +76,7 @@ There are four steps. They are simple. So simple.
 
 It's an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it only renders in [1 out of 10](http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/) viewer's browsers! Yay!
 
+To learn more about the marquee tag, check out [Evan Goer's blog](http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html) or [David Walsh's letter to the webmaster](http://davidwalsh.name/open-letter-webmaster). To see a non-ironic use of the marquee tag, hit up [Picasso Animation College's home page](http://www.picasso.co.in/).
+
 ## Throwback
 The [SpaceJam website](http://www2.warnerbros.com/spacejam/movie/jam.htm) is still alive and thriving.
