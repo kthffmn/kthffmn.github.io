@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: html | EduKatie]]></title>
+  <title><![CDATA[Category: html | Edukatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/html/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2014-09-30T10:24:10-04:00</updated>
+  <updated>2014-09-30T10:40:34-04:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -83,6 +83,10 @@ I imagined that this would look okay. Instead, it looked like this:</p>
 
 
 <p>To learn more about the vertical-align property, checkout <a href="http://www.impressivewebs.com/css-vertical-align/">Impressive Web&rsquo;s blog</a> or <a href="http://css-tricks.com/almanac/properties/v/vertical-align/">CSS-Trick&rsquo;s article</a>.</p>
+
+<h2>Throwback</h2>
+
+<p>All hail the <a href="http://youvegotmail.warnerbros.com/flashintro.html">You&rsquo;ve Got Mail</a> flash intro!</p>
 ]]></content>
   </entry>
   
@@ -106,7 +110,7 @@ I imagined that this would look okay. Instead, it looked like this:</p>
 
 <p>The marquee element was invented by Internet Explorer to try and get an edge on Netscape Navigator. For the babies out there, Netscape was a web browser that dominated the market up until the <a href="http://en.wikipedia.org/wiki/Browser_wars#First_browser_war">First Browser War</a> and it had its own proprietary tag, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink">blink</a>. The battle was epic, it was like <a href="http://youtu.be/VkOQW-Y-PYA">Ali versus Frazier III</a> but instead of boxing gloves, they had proprietary, equally obnoxious tags.</p>
 
-<p>Marqee tags were pretty popular, take any GeoCities page from that era, but it had some fierce critics.
+<p>The marqee tag was pretty popular, take any GeoCities page from that era, but it had some fierce critics.
 Vicious haters and cowards claimed that <a href="http://www.usabilityfirst.com/glossary/marquee/">the marquee tag was distracting</a> and that it <a href="https://www.webaccessibility.com/best_practices.php?best_practice_id=441">caused issues for users of assistive technology</a>. On both these counts they were right.</p>
 
 <p>Haters also said that <a href="http://en.wikipedia.org/wiki/Marquee_element#Usability_problems">it was difficult to print out webpages with marquee elements</a>. But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.</p>
