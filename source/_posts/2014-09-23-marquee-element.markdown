@@ -20,7 +20,7 @@ If you want a more immersive experience, visit Evan Goer's [Page of the Damned](
 
 The marquee element was invented by Internet Explorer to try and get an edge on Netscape Navigator. For the babies out there, Netscape was a web browser that dominated the market up until the [First Browser War](http://en.wikipedia.org/wiki/Browser_wars#First_browser_war) and it had its own proprietary tag, [blink](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink). The battle was epic, it was like [Ali versus Frazier III](http://youtu.be/VkOQW-Y-PYA) but instead of boxing gloves, they had proprietary, equally obnoxious tags.
 
-Marqee tags were pretty popular, take any GeoCities page from that era, but it had some fierce critics.
+The marqee tag was pretty popular, take any GeoCities page from that era, but it had some fierce critics.
 Vicious haters and cowards claimed that [the marquee tag was distracting](http://www.usabilityfirst.com/glossary/marquee/) and that it [caused issues for users of assistive technology](https://www.webaccessibility.com/best_practices.php?best_practice_id=441). On both these counts they were right.
 
 Haters also said that [it was difficult to print out webpages with marquee elements](http://en.wikipedia.org/wiki/Marquee_element#Usability_problems). But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.
