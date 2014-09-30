@@ -8,7 +8,7 @@ categories: html css img vertical-align
 
 ## Background
 
-You may have noticed that some of your favorite websites, like [Google Now](http://www.google.com/landing/now/#whatisit) and [Pintrest](http://www.pinterest.com/ruth77rn/ui-patterns-cards/), have started to put small amounts of content into discreet divs. These small units of content are called cards and the [card UI pattern](http://blog.intercom.io/why-cards-are-the-future-of-the-web/) is [gaining traction](http://blogs.telerik.com/telerikmarketing/posts/14-04-15/is-cards-ui-the-future-of-mobile) because they are scalable and easy to manipulate.
+You may have noticed that some of your favorite websites, like [Google Now](http://www.google.com/landing/now/#whatisit) and [Pintrest](http://www.pinterest.com/ruth77rn/ui-patterns-cards/), have started to put small amounts of content into discrete divs. These small units of content are called cards and the [card UI pattern](http://blog.intercom.io/why-cards-are-the-future-of-the-web/) is [gaining traction](http://blogs.telerik.com/telerikmarketing/posts/14-04-15/is-cards-ui-the-future-of-mobile) because they are scalable and easy to manipulate.
 
 A while back, I implemented this design:
 
@@ -33,17 +33,15 @@ I imagined that this would look okay. Instead, it looked like this:
 
 <iframe  width="480" height="275" src="http://kthffmn.github.io/baseline-examples/default"></iframe>
 
-RUN FOR YOUR LIFE I WON'T MAKE IT!
+**Q:** Why do bad things happen to good HTML elements?
 
-**Q:** Why do bad things happen to good HTML elements?"
-
-**A:** Because we live in a cruel world where there is no god.
+**A:** Because we live in a cruel world where nothing has meaning.
 
 ## Wha?
 
-So it turns out that images have a veritical-align property that defaults to baseline. You might be asking, "What the hell is baseline?" 
+So it turns out that images have a veritical-align property that defaults to baseline. You might be asking, "WHAT IS A BASELINE?!?" 
 
-Do you remember writing on college-ruled paper in school or are you reading this in the future where everyone comminucates via brain chips and Kanye West is worshipped as a god? Well, for those of you who remember ruled paper, those blue lines are perfect examples of baselines. Letters like p, q, and y have appendages that exend below the baseline but most letters sit on it. 
+First off, calm down. We're going to get through this together. Do you remember writing on college-ruled paper in school or are you reading this in the future where everyone comminucates via brain chips and Kanye West is worshipped as a god? Well, for those of you who remember ruled paper, those blue lines are perfect examples of baselines. Letters like p, q, and y have appendages that exend below the baseline but most letters sit on it. 
 
 For instance, the teal line in this image is the baseline:
 
