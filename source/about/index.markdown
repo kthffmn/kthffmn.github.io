@@ -13,7 +13,7 @@ A full stack web developer and current [Flatiron School](http://flatironschool.c
 
 * [Portfolio](http://www.kthffmn.com/)
 * [GitHub](http://github.com/kthffmn)
-* [Linked In](http://www.linkedin.com/in/kthffmn/)
+* [LinkedIn](http://www.linkedin.com/in/kthffmn/)
 * [Twitter](http://twitter.com/kt_hffmn)
 * [Instagram](http://instagram.com/kt_hffmn)
 * [Facebook](http://www.facebook.com/katie.a.hoffman)
