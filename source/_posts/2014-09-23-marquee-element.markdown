@@ -20,11 +20,13 @@ If you want a more immersive experience, visit Evan Goer's [Page of the Damned](
 
 The marquee element was invented by Internet Explorer to try and get an edge on Netscape Navigator. For the babies out there, Netscape was a web browser that dominated the market up until the [First Browser War](http://en.wikipedia.org/wiki/Browser_wars#First_browser_war) and it had its own proprietary tag, [blink](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink). The battle was epic, it was like [Ali versus Frazier III](https://kthffmn.github.io/marquee/public/img/netscape-vs-ie.png) but instead of boxing gloves, they had proprietary, equally obnoxious tags.
 
-The marqee tag was pretty popular, take any GeoCities page from that era, but it had some fierce critics. Vicious haters and cowards claimed that [the marquee tag was distracting](http://www.usabilityfirst.com/glossary/marquee/) and that it [caused issues for users of assistive technology](https://www.webaccessibility.com/best_practices.php?best_practice_id=441). On both these counts they were right. Haters also said that [it was difficult to print out webpages with marquee elements](http://en.wikipedia.org/wiki/Marquee_element#Usability_problems). But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem. Due to these complaints, the W3C decided that the marquee tag is not valid HTML. However, many browsers such as Chrome, Firefox, and Safari continue to support it.
+The marqee tag was pretty popular, take any GeoCities page from that era, but it had some fierce critics. Vicious haters and cowards claimed that [the marquee tag was distracting](http://www.usabilityfirst.com/glossary/marquee/) and that it [caused issues for users of assistive technology](https://www.webaccessibility.com/best_practices.php?best_practice_id=441). On both these counts they were right. Haters also said that [it was difficult to print out webpages with marquee elements](http://en.wikipedia.org/wiki/Marquee_element#Usability_problems). But really who does that? NOT A PROBLEM. Other two complaints: problem. Printing webpages: not problem.
 
-In fact, Firefox and now Chrome support a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, these browsers allow marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup's direction once it hits the side of the marquee. They also allow marquee tags to be nested (though [Evan Goer does not recommend it](http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html)): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that 'bounces'. In other words, the effect of a ball hitting walls below, acheived via JavaScript, can be mimicked with HTML and some old school CSS.
+Due to these complaints, the W3C decided that the marquee tag is not valid HTML, or non-compliant. However, many browsers such as Chrome, Firefox, and Safari continue to support it.
 
-<iframe width="400" height="305" src="https://kthffmn.github.io/marquee/ball_mimic"></iframe>
+In fact, Firefox and now Chrome support a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, these browsers allow marquee tags to scroll from top to bottom. Another attribute allows you to reverse the markup's direction once it hits the side of the marquee. These browsers also allow marquee tags to be nested (though [Evan Goer does not recommend it](http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html)): that is, having on marquee tag inside of another. Put the two and two together, and you get a div that 'bounces'. In other words, the effect of a ball hitting walls below, acheived via JavaScript, can be mimicked with HTML and some old school CSS.
+
+<iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball_mimic"></iframe>
 
 ## Creating Bouncing Ball using Marquees
 
@@ -34,7 +36,7 @@ There are five steps. They are simple. So simple.
 
 **Step 1:** Create the markup
 
-To start out, we're gonna nest some divs like they're dreams and we're in *Inception*. Okay so create a container. Inside this container, create a bar-like div. Inside this bar, nest a green square.
+To start out, we're gonna nest some divs like they're dreams and we're in *Inception*. Okay so create a container. Inside this container, create a bar-like div. Inside this bar, nest a green square. Ta-da!
 
 <iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-0.html"></iframe>
 
@@ -44,24 +46,6 @@ To start out, we're gonna nest some divs like they're dreams and we're in *Incep
     <div class="square"></div>
   </di>
 </div>
-```
-
-```css
-.container {
-  width: 400px;
-  height: 300px;
-  background-color: skyblue;
-}
-
-.bar {
-  background-color: tomato;
-}
-
-.square {
-  width: 42px;
-  height: 42px;
-  background-color: chartreuse;
-}
 ```
 
 **Step 2:** Move the square from left to right
@@ -110,6 +94,6 @@ Don't want to write any of this? I get it. Here's the [Codepen](https://codepen.
 
 ## Conclusion
 
-It's an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it renders in almost [1 out of 2](http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/) viewer's browsers! Yay!
+Using nested marquee tags is an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it renders in almost [1 out of 2](http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/) viewer's browsers! Yay!
 
 To learn more about the marquee tag, check out [Evan Goer's blog](http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html), [Zach Holman's blog](http://zachholman.com/posts/only-90s-developers/), and [David Walsh's letter to the webmaster](http://davidwalsh.name/open-letter-webmaster).
