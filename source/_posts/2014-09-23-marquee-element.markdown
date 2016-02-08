@@ -70,7 +70,7 @@ Repeat step 2 but for the `.bar` div: wrap it in a marquee tag with the `alterna
     <marquee>...</marquee>
   </div>
 </marquee>
-```html
+```
 
 <iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-2.html"></iframe>
 
