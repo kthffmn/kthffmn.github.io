@@ -106,6 +106,8 @@ Lazy garbage people like me could just link to [Font Awesome](https://fortawesom
 
 <iframe width="400" height="320" src="https://kthffmn.github.io/marquee/ball-4.html"></iframe>
 
+Don't want to write any of this? I get it. Here's the [Codepen](https://codepen.io/anon/pen/KVrWmr).
+
 ## Conclusion
 
 It's an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it renders in almost [1 out of 2](http://thenextweb.com/insider/2014/05/16/chrome-still-used-across-desktop-mobile-firefox-falls-safari-ie/) viewer's browsers! Yay!
