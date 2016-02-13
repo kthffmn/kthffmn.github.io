@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://kthffmn.github.io/blog/2014/09/29/baseline/</loc>
-<lastmod>2014-09-29T14:41:14-04:00</lastmod>
+<loc>http://kthffmn.github.io/blog/2016/02/08/html-bouncing-ball-using-nested-marquees/</loc>
+<lastmod>2016-02-08T11:14:41-05:00</lastmod>
 </url>
 <url>
-<loc>http://kthffmn.github.io/blog/2014/09/23/marquee-element/</loc>
-<lastmod>2014-09-23T12:14:41-04:00</lastmod>
+<loc>http://kthffmn.github.io/blog/2014/09/29/baseline/</loc>
+<lastmod>2014-09-29T14:41:14-04:00</lastmod>
 </url>
 <url>
 <loc>http://kthffmn.github.io/blog/</loc>
@@ -27,9 +27,6 @@
 <loc>http://kthffmn.github.io/blog/categories/html/</loc>
 </url>
 <url>
-<loc>http://kthffmn.github.io/blog/categories/marquee/</loc>
-</url>
-<url>
 <loc>http://kthffmn.github.io/blog/categories/css/</loc>
 </url>
 <url>
@@ -37,5 +34,8 @@
 </url>
 <url>
 <loc>http://kthffmn.github.io/blog/categories/vertical-align/</loc>
+</url>
+<url>
+<loc>http://kthffmn.github.io/blog/categories/marquee/</loc>
 </url>
 </urlset>

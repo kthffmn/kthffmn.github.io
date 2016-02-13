@@ -4,7 +4,7 @@
   <title><![CDATA[Category: marquee | eduKatie]]></title>
   <link href="http://kthffmn.github.io/blog/categories/marquee/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2016-02-08T20:37:21-05:00</updated>
+  <updated>2016-02-13T17:06:36-05:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
     <name><![CDATA[Katie Hoffman]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Marquee Element]]></title>
-    <link href="http://kthffmn.github.io/blog/2014/09/23/marquee-element/"/>
-    <updated>2014-09-23T12:14:41-04:00</updated>
-    <id>http://kthffmn.github.io/blog/2014/09/23/marquee-element</id>
+    <title type="html"><![CDATA[HTML Bouncing Ball Using Nested Marquees]]></title>
+    <link href="http://kthffmn.github.io/blog/2016/02/08/html-bouncing-ball-using-nested-marquees/"/>
+    <updated>2016-02-08T11:14:41-05:00</updated>
+    <id>http://kthffmn.github.io/blog/2016/02/08/html-bouncing-ball-using-nested-marquees</id>
     <content type="html"><![CDATA[<h2>Introduction</h2>
 
 <p>Marquee tags used to be quite the popular party guests at HTML cocktail parties. They would enter from the front door, head over to the drinks, keep walking, jump out the window, only to re-enter from the front door. Oh! those crazy tricksters.</p>
@@ -60,7 +60,7 @@
 <div class="container">
   <div class="bar">
     <div class="square"></div>
-  </di>
+  </div>
 </div>
 
 
@@ -92,14 +92,14 @@ Wrap the `.square` div in a marquee tag and give this marquee tag a behavior att
 <iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-2.html"></iframe>
 
 
-<p><strong>Step 4:</strong> Nest a circle icon in the square div</p>
+<p><strong>Step 4:</strong> Nest a circle div inside the square div</p>
 
-<p>Lazy garbage people like me could just link to <a href="https://fortawesome.github.io/Font-Awesome/get-started/">Font Awesome</a> and use its <a href="https://fortawesome.github.io/Font-Awesome/icon/circle/">circle icon</a>.</p>
+<p>Take a look at CSS Trick&rsquo;s <a href="https://css-tricks.com/examples/ShapesOfCSS/">shapes article</a> if you need help styling a circle-shaped div.</p>
 
 <p>&#8220;`html</p>
 
 <div class="square">
-  <i class="fa fa-circle"></i>
+  <div class="circle"></div>
 </div>
 
 
@@ -119,7 +119,7 @@ Wrap the `.square` div in a marquee tag and give this marquee tag a behavior att
 
 <p>Using nested marquee tags is an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it renders in almost <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables">50%</a> of viewers&#8217; browsers! Yay!</p>
 
-<p>To learn more about the marquee tag, check out <a href="http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html">Evan Goer&rsquo;s blog</a>, <a href="http://zachholman.com/posts/only-90s-developers/">Zach Holman&rsquo;s blog</a>, and <a href="http://davidwalsh.name/open-letter-webmaster">David Walsh&rsquo;s letter to the webmaster</a>.</p>
+<p>To learn more about the marquee tag, check out <a href="http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html">Evan Goer&rsquo;s blog</a>, <a href="http://zachholman.com/posts/only-90s-developers/">Zach Holman&rsquo;s blog</a>, or <a href="http://davidwalsh.name/open-letter-webmaster">David Walsh&rsquo;s letter to the webmaster</a>.</p>
 ]]></content>
   </entry>
   
