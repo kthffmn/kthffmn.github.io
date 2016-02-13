@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Marquee Element"
-date: 2014-09-23 12:14:41 -0400
+title: "HTML Bouncing Ball Using Nested Marquees"
+date: 2016-02-08 12:14:41 -0400
 comments: true
 categories: html marquee
 ---
@@ -44,7 +44,7 @@ To start out, we're gonna nest some divs like they're dreams and we're in *Incep
 <div class="container">
   <div class="bar">
     <div class="square"></div>
-  </di>
+  </div>
 </div>
 ```
 
@@ -74,13 +74,13 @@ Repeat step 2 but for the `.bar` div: wrap it in a marquee tag with the `alterna
 
 <iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-2.html"></iframe>
 
-**Step 4:** Nest a circle icon in the square div
+**Step 4:** Nest a circle div inside the square div
 
-Lazy garbage people like me could just link to [Font Awesome](https://fortawesome.github.io/Font-Awesome/get-started/) and use its [circle icon](https://fortawesome.github.io/Font-Awesome/icon/circle/).
+Take a look at CSS Trick's [shapes article](https://css-tricks.com/examples/ShapesOfCSS/) if you need help styling a circle-shaped div.
 
 ```html
 <div class="square">
-  <i class="fa fa-circle"></i>
+  <div class="circle"></div>
 </div>
 ```
 
@@ -96,4 +96,4 @@ Don't want to write any of this? I get it. Here's the [Codepen](https://codepen.
 
 Using nested marquee tags is an easy way to create the appearance of a bouncing ball that requires no JavaScript or fancy new CSS and it renders in almost [50%](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables) of viewers' browsers! Yay!
 
-To learn more about the marquee tag, check out [Evan Goer's blog](http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html), [Zach Holman's blog](http://zachholman.com/posts/only-90s-developers/), and [David Walsh's letter to the webmaster](http://davidwalsh.name/open-letter-webmaster).
+To learn more about the marquee tag, check out [Evan Goer's blog](http://goer.org/Journal/2003/11/the_marquee_element_revolutions.html), [Zach Holman's blog](http://zachholman.com/posts/only-90s-developers/), or [David Walsh's letter to the webmaster](http://davidwalsh.name/open-letter-webmaster).
