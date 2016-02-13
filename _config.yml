@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://kthffmn.github.io
-title: eduKatie
-subtitle: exploring coding curiosities 
-author: Katie Hoffman
+title: code-dependent
+subtitle: katie's only and least-funny blog
+author: katie
 simple_search: https://www.google.com/search
-description: Web Development Blog
+description: web dev blog
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
