@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: css | eduKatie]]></title>
+  <title><![CDATA[Category: css | code-dependent]]></title>
   <link href="http://kthffmn.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2016-02-13T17:06:36-05:00</updated>
+  <updated>2016-02-13T17:45:58-05:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
-    <name><![CDATA[Katie Hoffman]]></name>
+    <name><![CDATA[katie]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

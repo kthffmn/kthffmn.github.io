@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: marquee | eduKatie]]></title>
+  <title><![CDATA[Category: marquee | code-dependent]]></title>
   <link href="http://kthffmn.github.io/blog/categories/marquee/atom.xml" rel="self"/>
   <link href="http://kthffmn.github.io/"/>
-  <updated>2016-02-13T17:06:36-05:00</updated>
+  <updated>2016-02-13T17:45:58-05:00</updated>
   <id>http://kthffmn.github.io/</id>
   <author>
-    <name><![CDATA[Katie Hoffman]]></name>
+    <name><![CDATA[katie]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -24,7 +24,7 @@
 
 <p>Still not jogging your memory? Marquees look like this:</p>
 
-<iframe height="70" width="400" src="https://kthffmn.github.io/marquee/js_mimic"></iframe>
+<iframe height="70" width="400" src="//kthffmn.github.io/marquee/js_mimic"></iframe>
 
 
 <p>If you want a more immersive experience, visit Evan Goer&rsquo;s <a href="http://www.goer.org/htmlhorror/htmlhorror1.html">Page of the Damned</a>. It&rsquo;s simply spectacular.</p>
@@ -39,12 +39,12 @@
 
 <p>In fact, Firefox and now Chrome support a wide array of attributes. For instance, in addition to rendering marquee tags that scroll horizontally, these browsers allow marquee tags to scroll from top to bottom. Another attribute allows you to reverse the content&rsquo;s direction once it hits the side of the marquee. These browsers also allow marquee tags to be nested (though <a href="http://goer.org/Journal/2003/10/html_house_of_horror_things_that_go_blink_in_the_n.html">Evan Goer does not recommend it</a>)—that is, having one marquee tag inside of another. Put the two and two together, and you get a div that &lsquo;bounces&rsquo;. In other words, the effect of a ball hitting walls can be achieved with just HTML and some old school CSS.</p>
 
-<iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball_mimic"></iframe>
+<iframe width="400" height="300" src="//kthffmn.github.io/marquee/ball_mimic"></iframe>
 
 
 <h2>Creating a Bouncing Ball Using Marquees</h2>
 
-<p><strong>Please read the rest of this post in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="https://www.google.com/chrome/browser/desktop/">Chrome</a> as most other browsers can&rsquo;t support the marqee tags below.</strong></p>
+<p><strong>Please read the rest of this post in <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="https://www.google.com/chrome/browser/desktop/">Chrome</a> as most other browsers can&rsquo;t support the nested marqee tags below. Note that it&rsquo;s way smoother in Chrome.</strong></p>
 
 <p>There are five steps. They are simple. So simple.</p>
 
@@ -52,7 +52,7 @@
 
 <p>To start out, we&rsquo;re gonna nest some divs like they&rsquo;re dreams and we&rsquo;re in <em>Inception</em>. Okay so create a container. Inside this container, create a bar-like div. Inside this bar, nest a green square. Ta-da!</p>
 
-<iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-0.html"></iframe>
+<iframe width="400" height="320" src="//kthffmn.github.io/marquee/ball-0.html"></iframe>
 
 
 <p>&#8220;`html</p>
@@ -75,7 +75,7 @@ Wrap the `.square` div in a marquee tag and give this marquee tag a behavior att
 </marquee>
 &#8220;`</p>
 
-<iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-1.html"></iframe>
+<iframe width="400" height="320" src="//kthffmn.github.io/marquee/ball-1.html"></iframe>
 
 
 <p><strong>Step 3:</strong> Move the bar from top to bottom</p>
@@ -89,7 +89,7 @@ Wrap the `.square` div in a marquee tag and give this marquee tag a behavior att
 &lt;/marquee&gt;
 </code></pre>
 
-<iframe width="400" height="300" src="https://kthffmn.github.io/marquee/ball-2.html"></iframe>
+<iframe width="400" height="320" src="//kthffmn.github.io/marquee/ball-2.html"></iframe>
 
 
 <p><strong>Step 4:</strong> Nest a circle div inside the square div</p>
@@ -105,12 +105,12 @@ Wrap the `.square` div in a marquee tag and give this marquee tag a behavior att
 
 <p>&#8220;`</p>
 
-<iframe width="400" height="310" src="https://kthffmn.github.io/marquee/ball-3.html"></iframe>
+<iframe width="400" height="320" src="//kthffmn.github.io/marquee/ball-3.html"></iframe>
 
 
-<p><strong>Step 5:</strong>&nbsp;&nbsp;*lowers glasses like Tim Gun*&nbsp;&nbsp;Make it work.</p>
+<p><strong>Step 5:</strong> [lowers glasses like Tim Gun] Make it work.</p>
 
-<iframe width="400" height="320" src="https://kthffmn.github.io/marquee/ball-4.html"></iframe>
+<iframe width="400" height="320" src="//kthffmn.github.io/marquee/ball-4.html"></iframe>
 
 
 <p>Don&rsquo;t want to write any of this? I get it. Here&rsquo;s the <a href="https://codepen.io/anon/pen/KVrWmr">Codepen</a>.</p>
